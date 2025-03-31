@@ -1,16 +1,36 @@
-🎯 Objetivo do projeto
+# Robô Equilibrista
 
+-
 
-🧩 Componentes usados
+## Objetivo
 
+-
 
-⚡ Pinagem dos dispositivos
+##  Lista de materiais: 
 
+| Componente            | Conexão na BitDogLab      |
+|-----------------------|---------------------------|
+| | |
+| | |
+| | |
 
-🧪 Como compilar e executar
+## Execução
 
+-
 
-🖼️ Imagens e vídeos
+## Lógica
 
+-
 
-📈 Resultados esperados ou observados
+##  Arquivos
+
+-
+
+## 🖼️ Imagens do Projeto
+
+-
+
+---
+
+## 📜 Licença
+MIT License - MIT GPL-3.0.
