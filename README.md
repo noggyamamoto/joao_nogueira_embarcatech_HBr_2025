@@ -18,6 +18,8 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 
 ---
 
-## O que fazer com este arquivo
+## Projetos
 
-Ao fazer o *fork* do repositório, o aluno está livre para modificar este arquivo como quiser dentro do seu próprio *fork*.
+| [Galton Board Digital](./projetos/galton_board/) | Simulação de eventos aleatórios com visualização em display OLED e histograma |
+| [Sintetizador de Som](./projetos/sintetizador_audio/) | Geração de sons com botões e buzzer |
+| [Robô Equilibrista](./projetos/robo_equilibrista/) | Carrinho que se equilibra sobre duas rodas com controle PID |
