@@ -56,4 +56,4 @@ Criar um sistema que:
 - `CMakeLists.txt`: Configuração do projeto  
 
 ## Licença
-MIT License
+MIT License - MIT GPL-3.0.
