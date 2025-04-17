@@ -1,4 +1,4 @@
-# Contador Regressivo com Interrupção
+# Contador Decrescente
 
 Este projeto implementa um contador decrescente controlado por interrupção em um Raspberry Pi Pico, demonstrando o uso de:
 - Display OLED para visualização
