@@ -56,4 +56,4 @@ Criar um sistema que:
 - `CMakeLists.txt`: Configuração do projeto  
 
 ## Licença
-MIT License - © 2023 [Seu Nome]
+MIT License
