@@ -1,14 +1,31 @@
-# 📡 Leitura de Temperatura Interna do RP2040
-  
-*Sensor térmico integrado no RP2040*
+# Leitura do Sensor de Temperatura Interno do RP2040
 
-## 🎯 Objetivos
-- [x] Ler temperatura interna via ADC
-- [x] Converter para graus Celsius
-- [x] Exibir dados em tempo real
+Este projeto realiza a leitura do sensor de temperatura interno do Raspberry Pi Pico (RP2040) e exibe os valores no terminal serial.
 
-## 🧰 Hardware Necessário
-| Componente             | Especificações                    |
-|------------------------|-----------------------------------|
-| Raspberry Pi Pico      | RP2040 com sensor interno         |
-| Conexão USB            | Para alimentação e comunicação    |
+## 📋 Objetivo
+Implementar um sistema que:
+- Lê o sensor de temperatura interno do RP2040
+- Converte o valor ADC para temperatura em graus Celsius
+- Exibe os dados formatados no terminal serial
+- Fornece informações de tensão e valor ADC bruto
+
+## 🛠️ Lista de Materiais
+| Componente          | Observação                          |
+|---------------------|-------------------------------------|
+| Raspberry Pi Pico   | Utiliza sensor interno do RP2040    |
+| Cabo USB            | Para alimentação e comunicação serial |
+
+## 📁 Arquivo Principal
+- `temperatura_interna.c`: Contém toda a lógica de leitura e conversão do sensor
+
+## 📜 Licença
+MIT License - [MIT]
+
+## 🚀 Como Executar
+1. Conecte o Raspberry Pi Pico via USB
+2. Compile e envie o código:
+```bash
+mkdir build
+cd build
+cmake ..
+make
