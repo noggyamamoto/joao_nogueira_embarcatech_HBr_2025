@@ -1,4 +1,4 @@
-# Leitura de Joystick com Raspberry Pi Pico
+# Leitura de Joystick
 
 Este projeto implementa um sistema de leitura de joystick analógico com botão em um Raspberry Pi Pico.
 
