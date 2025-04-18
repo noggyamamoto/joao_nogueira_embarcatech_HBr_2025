@@ -1,4 +1,4 @@
-# Leitura de Joystick com Raspberry Pi Pico
+# Leitura de Joystick
 
 Este projeto implementa um sistema de leitura de joystick analógico com botão em um Raspberry Pi Pico.
 
@@ -17,6 +17,13 @@ Criar um sistema que:
 |                     | Eixo Y: GPIO27 (ADC1) |
 |                     | Botão: GPIO22         |
 
+## Arquivos Principais
+- `src/main.c`: Código principal com toda a lógica
+- `CMakeLists.txt`: Configuração do projeto
+
+## Licença
+MIT License - MIT GPL-3.0.
+
 ## 🚀 Execução
 1. Conecte o joystick aos pinos do Pico
 2. Compile e envie o código:
@@ -26,9 +33,4 @@ cd build
 cmake ..
 make
 
-## Arquivos Principais
-- `src/main.c`: Código principal com toda a lógica
-- `CMakeLists.txt`: Configuração do projeto
 
-## Licença
-MIT License - MIT GPL-3.0.
