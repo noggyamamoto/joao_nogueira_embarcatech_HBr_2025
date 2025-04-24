@@ -53,5 +53,5 @@ Ao longo do curso, esta seção será atualizada com os principais aprendizados,
 
 ## Licença
 
-MIT License ou GPL-3.0
+GPL-3.0
 
