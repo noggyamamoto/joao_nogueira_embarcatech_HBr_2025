@@ -26,11 +26,11 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 
 | [Robô Equilibrista](./projetos/robo_equilibrista/) | Carrinho que se equilibra sobre duas rodas com controle PID |
 
-| [Contador Decrescente](./projetos/cont_decrescente/) | Contador decrescente controlado por interrupção |
+| [Contador Decrescente](./projetos/U1_01_cont_decrescente/) | Contador decrescente controlado por interrupção |
 
-| [Leitura dos Sinais Analógicos](./projetos/joystick/) | Leitura de joystick analógico com botão |
+| [Leitura dos Sinais Analógicos](./projetos/U1_02_joystick/) | Leitura de joystick analógico com botão |
 
-| [Leitura da Temperaruta Interna](./projetos/temperatura_interna/) |  Leitura do sensor de temperatura interno do Raspberry Pi Pico (RP2040) |
+| [Leitura da Temperaruta Interna](./projetos/U1_03_temperatura_interna/) |  Leitura do sensor de temperatura interno do Raspberry Pi Pico (RP2040) |
 
 
 ##  Diário de Bordo (Reflexões e Aprendizados)
