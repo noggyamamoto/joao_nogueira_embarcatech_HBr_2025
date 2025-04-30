@@ -32,6 +32,8 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 
 | [Leitura da Temperaruta Interna](./projetos/U1_03_temperatura_interna/) |  Leitura do sensor de temperatura interno do Raspberry Pi Pico (RP2040) |
 
+| [Piscar LED](./projetos/U1_04_blink_arq_mod/) | Estrutura modular para fazer o LED embutido da Raspberry Pi Pico W piscar indefinidamente |
+
 
 ##  Diário de Bordo (Reflexões e Aprendizados)
 
