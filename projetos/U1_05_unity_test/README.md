@@ -1,4 +1,4 @@
-# Leitura do Sensor de Temperatura Interno do RP2040
+# Leitura e Teste Unitário do Sensor de Temperatura Interno do RP2040
 
 Este projeto realiza a leitura do sensor de temperatura interno do Raspberry Pi Pico (RP2040) e exibe os valores no terminal serial, incluindo testes unitários para validação da conversão ADC.
 
