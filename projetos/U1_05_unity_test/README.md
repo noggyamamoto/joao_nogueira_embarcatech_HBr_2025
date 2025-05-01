@@ -1,54 +1,43 @@
-# Projeto: Piscar LED Embutido na Raspberry Pi Pico W
+# Leitura do Sensor de Temperatura Interno do RP2040
 
-Este projeto implementa uma estrutura modular para fazer o LED embutido da **Raspberry Pi Pico W** piscar indefinidamente. O código é organizado seguindo boas práticas de separação por camadas: *drivers*, *HAL (Hardware Abstraction Layer)* e *aplicação*.
+Este projeto realiza a leitura do sensor de temperatura interno do Raspberry Pi Pico (RP2040) e exibe os valores no terminal serial, incluindo testes unitários para validação da conversão ADC.
 
-## 🧱 Estrutura do Projeto
+## 📋 Objetivo
+Implementar um sistema que:
+- Lê o sensor de temperatura interno do RP2040
+- Converte o valor ADC para temperatura em graus Celsius
+- Exibe os dados formatados no terminal serial
+- Inclui testes unitários para garantir a precisão da conversão
 
-projeto/
+## 🛠️ Lista de Materiais
+| Componente          | Observação                          |
+|---------------------|-------------------------------------|
+| Raspberry Pi Pico   | Utiliza sensor interno do RP2040    |
+| Cabo USB            | Para alimentação e comunicação serial |
 
-├── app/
+## 📁 Estrutura do Projeto
+- `main.c`: Lógica principal de leitura do sensor e conversão
+- `temp_teste.c`: Testes unitários para função de conversão
+- `CMakeLists.txt`: Configuração de compilação (a ser criado)
 
-│   └── main.c
+## 🔧 Funcionalidades
+- Leitura periódica do sensor (500ms)
+- Conversão precisa usando fórmula oficial do RP2040
+- Saída formatada no terminal serial
+- Testes automatizados para validação
 
-├── drivers/
+## 📜 Licença
+MIT License - [MIT]
 
-│   └── led_embutido.c
+## 🚀 Como Executar Testes Unitários
 
-├── hal/
-
-│   └── hal_led.c
-
-├── include/
-
-│   ├── led_embutido.h
-
-│   └── hal_led.h
-
-└── CMakeLists.txt
-
-## 📁 Descrição dos Componentes
-
-### `drivers/led_embutido.c`
-Contém código que interage diretamente com o hardware, usando a API `cyw43_arch` para controlar o LED embutido da Pico W.
-
-### `hal/hal_led.c`
-Implementa a função `hal_led_toggle()`, que fornece uma interface de alto nível para manipular o LED sem expor detalhes da API de hardware.
-
-### `app/main.c`
-Arquivo principal da aplicação. Utiliza a HAL para alternar o estado do LED com um intervalo de 500 ms, criando o efeito de piscar.
-
-### `include/*.h`
-Arquivos de cabeçalho contendo declarações das funções expostas por `hal_led.c` e `led_embutido.c`.
-
-### `CMakeLists.txt`
-Responsável por configurar a compilação do projeto, incluindo diretórios relevantes e arquivos-fonte.
-
-## 🚀 Como Compilar
-
-1. Clone ou copie a estrutura do projeto.
-2. Configure o SDK do Pico (PICO_SDK_PATH).
-3. Crie um diretório de build e compile:
-
+```bash
+gcc temp_teste.c -I. -lunity -lm -o testes
+./testes
+```
+### Programa Principal
+1. Conecte o Raspberry Pi Pico via USB
+2. Compile e envie o código:
 ```bash
 mkdir build
 cd build
